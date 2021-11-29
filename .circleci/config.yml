@@ -40,7 +40,7 @@ jobs:
 
       - run:
           name: run html proofer
-          command: bundle exec htmlproofer ./ --check-html
+          command: bundle exec htmlproofer ./index.md --check-html
 
       - run:
           name: notify test is finished
